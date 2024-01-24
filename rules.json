@@ -1,0 +1,17 @@
+{
+    "predicates" : "Any",
+    "rules": [
+      {
+        "field": "mail_from",
+        "predicate": "Contains",
+        "value": "no-reply@accounts.google.com"
+      },
+      {
+        "field": "date_received",
+        "predicate": "less than",
+        "value": "2024-01-24 09:06:27"
+      }
+    ],
+    "action": "Move Message"
+}
+  
